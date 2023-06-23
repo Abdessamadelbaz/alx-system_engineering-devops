@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -printf '%f,' | sed 's/,$/\n/'
+ls -xamp
